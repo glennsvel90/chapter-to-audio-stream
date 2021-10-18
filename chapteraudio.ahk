@@ -1,4 +1,3 @@
-
 #Persistent   
 SetTitleMatchMode, 2 ; match start of the title
 
@@ -13,5 +12,12 @@ send !d
 send {right}
 send ?interface=amp
 send {enter}
-send {tab}{tab}{tab}{tab}
+sleep 1500
+send {tab}
+sleep 25
+send {tab}
+sleep 25
+send {tab}
+sleep 25
+send {tab}
 Return
